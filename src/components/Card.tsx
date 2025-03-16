@@ -1,6 +1,6 @@
 interface cardProps{
     image:string,
-    title:string
+    title:string 
 }
 
 export default function Card({image,title}:cardProps){
