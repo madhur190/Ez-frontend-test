@@ -70,7 +70,7 @@
                 </div>}
               </div>
             </div>}
-            <input className='w-xs md:w-82 xl:w-md 2xl:w-lg lg:w-auto 3xl:w-2xl rounded-xl border h-18 xl:h-16 2xl:h-18 text-4xl text-[#ABABAB] px-5 py-3 ' placeholder='Email Address' value={email} onChange={(e)=>setEmail(e.target.value)} onKeyDown={(e)=>e.key === "Enter" && onClickHandler()}/>
+            <input className='w-xs md:w-82 xl:w-sm 2xl:w-md lg:w-auto 3xl:w-2xl rounded-xl border h-18 xl:h-16 2xl:h-18 text-4xl text-[#ABABAB] px-5 py-3 ' placeholder='Email Address' value={email} onChange={(e)=>setEmail(e.target.value)} onKeyDown={(e)=>e.key === "Enter" && onClickHandler()}/>
           </div>
           <div>
             <button className='mt-5 md:mt-0 h-18 xl:h-16 2xl:h-18 text-white text-4xl xl:text-2xl 2xl:text-4xl bg-[#EA7B2C] rounded-xl flex items-center relative justify-center w-57 xl:w-42 2xl:w-57' disabled={loading} onClick={onClickHandler}>
@@ -78,7 +78,7 @@
             </button>
           </div>
         </div>
-        <div className='order-2 pt-12 xl:pt-0 row-span-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-5 2xl:gap-8 3xl:gap-12 mx-auto xl:mx-0 self-center'>
+        <div className='order-2 pt-12 xl:pt-0 row-span-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-5 2xl:gap-8 3xl:gap-12 mx-auto xl:mx-0 self-center xl:max-w-4xl'>
           <Card title='Presentation Design' image={presDesignIconSmall}/>
           <Card title='Audio - Visual Production' image={audioProductionIconSmall}/>
           <Card title='Translation Services' image={translationServicesIconSmall}/>
