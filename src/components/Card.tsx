@@ -4,7 +4,7 @@ interface cardProps{
 }
 
 export default function Card({image,title}:cardProps){
-    return <div className="bg-[#112949] flex flex-col h-60 2xl:h-63 max-w-64 rounded-xl p-7 text-6 xl:text-sm 2xl:text-lg leading-[29px] min-w-0">
+    return <div className="bg-[#112949] flex flex-col h-60 2xl:h-63 max-w-64 rounded-xl p-7 text-6 xl:text-sm 2xl:text-lg leading-7 xl:leading-6 2xl:leading-7 min-w-0">
         <div className="text-[#3CC3F2] pb-5 flex items-center">
             <div className="pr-5">
                 <img src={image} className="w-12 h-12 object-contain"></img>
